@@ -6,18 +6,20 @@ include_once("datos.php");
 
 $cat= $_GET['key'];
 ?> 
+<div class="alert alert.primary" role="alert">
 	<h3>Elija Su Servicio fav</h3>
-	<ul>
+	<ul class="list-group">
+</ul>
 	<?php
 	foreach($categorias as $key => $cat){
 	?>
-		<li><a href="cat.php?key=<?php echo $key?>"><?php echo $cat?></a></li>
+		<li class="list-group-item"><a href="cat.php?key=<?php echo $key?>"><?php echo $cat?></a></li>
 		
 	<?php
 	} 
 	?>
 	</ul>
-
+	</div>
 <?php
 include_once("footer.php");
 ?>

@@ -18,15 +18,8 @@
 </nav>
 <section class="jumbotron text-center">
     <div class="container">
-      <h1>Bienvenido!</h1>
-      <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-      <p>
-        <a href="#" class="btn btn-primary my-2">Main call to action</a>
-        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-      </p>
+      <h1>Bienvenido a InfoMax</h1>
+      <p class="lead text-muted">Conectando Soluciones</p>
+      <p class="lead text-muted">Encuentra todo lo necesario para tu Pyme, Empresa o Institucion</p>
     </div>
   </section>
-	<h1><center>BIENVENIDO A INFOMAX</center></h1>
-	<p1> <center>Conectando Soluciones</center></p1>
-	<p1> <center> Encuentra todo lo necesario para tu Pyme, Empresa o Institucion!</center></p1>
-</div>
