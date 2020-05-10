@@ -3,10 +3,10 @@ require 'vendor/autoload.php';
 $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 
-$collection= $client->infomaxi->categorias;
+$collection= $client-> infomaxi->categorias;
 $coleccategorias= ($collection->find());
-$categorias = Array();
-foreach ($categorias as $entry) {
+$categorias = array();
+foreach ($coleccategorias as $entry) {
     $categorias[$entry['_id']->__toString() ] = $entry['name'];
     echo $categorias[ $entry['_id']];
 }
