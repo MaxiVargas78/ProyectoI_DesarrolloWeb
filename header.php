@@ -5,19 +5,27 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">InfoMax</a>
+  <a class="navbar-brand" href="#">InfoMax</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-	<li class="nav-item active">
+      <li class="nav-item active">
         <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-    </li>
-</div>
-</nav> 
-
+      </li>
+</nav>
+<section class="jumbotron text-center">
+    <div class="container">
+      <h1>Bienvenido!</h1>
+      <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+      <p>
+        <a href="#" class="btn btn-primary my-2">Main call to action</a>
+        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+      </p>
+    </div>
+  </section>
 	<h1><center>BIENVENIDO A INFOMAX</center></h1>
 	<p1> <center>Conectando Soluciones</center></p1>
 	<p1> <center> Encuentra todo lo necesario para tu Pyme, Empresa o Institucion!</center></p1>
