@@ -1,0 +1,22 @@
+body {
+    background-color: #aa4139;
+}
+h1 {
+    color: #d4726a;
+}
+h3 {
+    color: #ffb0aa;
+}
+p {
+    color: #265B6A;
+}
+a {
+    color: #804b15;
+}
+.header {
+    background-color: #804b15;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
