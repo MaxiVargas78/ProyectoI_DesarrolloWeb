@@ -12,8 +12,6 @@ foreach ($collection as $entry) {
 }
 
 
-
-$cat= $_GET['key'];
 ?> 
 <div class="alert alert.primary" role="alert">
 	<h3>Elija Servicio</h3>
