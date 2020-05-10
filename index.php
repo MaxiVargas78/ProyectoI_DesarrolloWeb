@@ -7,7 +7,7 @@ include_once("datos.php");
 $cat= $_GET['key'];
 ?> 
 <div class="alert alert.primary" role="alert">
-	<h3>Elija Su Servicio fav</h3>
+	<h3>Elija Servicio</h3>
 	<ul class="list-group">
 </ul>
 	<?php

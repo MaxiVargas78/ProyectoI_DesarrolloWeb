@@ -1,6 +1,16 @@
 <?php
+require 'vendor/autoload.php';
+$uri="mongodb://localhost";
+$client=new MongoDB\Client($uri);
 
-$categorias = array("Servicio de Internet", "Servicio de Hardware", "Servicio de Software");
+$collection= $client->infomaxi->categorias;
+$coleccategorias= ($collection->find());
+$categorias = Array();
+foreach ($categorias as $entry) {
+    $categorias[$entry['_id']->__toString() ] = $entry['name'];
+    echo $categorias[ $entry['_id']];
+}
+
 $catprod = array(
     0 => array(0,1), 
     1 => array(2,3,4), 
