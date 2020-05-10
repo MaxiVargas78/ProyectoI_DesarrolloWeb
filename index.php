@@ -11,7 +11,7 @@ foreach ($collection as $entry) {
     echo $categorias[ $entry['_id']];
 }
 
-
+$cat= $_GET['key'];
 ?> 
 <div class="alert alert.primary" role="alert">
 	<h3>Elija Servicio</h3>
