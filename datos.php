@@ -11,7 +11,6 @@ foreach ($coleccategorias as $entry) {
     echo $categorias[ $entry['_id']];
 }
 
-print_r($categorias);
 
 $catprod = array(
     0 => array(0,1), 

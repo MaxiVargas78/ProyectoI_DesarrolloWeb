@@ -1,8 +1,18 @@
 <?php
 include_once("header.php");
-include_once("datos.php");
+require 'vendor/autoload.php';
+$uri="mongodb://localhost";
+$client=new MongoDB\Client($uri);
 
-//print_r($productos);
+$collection= $client->infomaxi->categorias->find();
+$coleccategorias= ($collection->find());
+$categorias = array();
+foreach ($coleccategorias as $entry) {
+    $categorias[$entry['_id']->__toString() ] = $entry['name'];
+    echo $categorias[ $entry['_id']];
+}
+
+
 
 $cat= $_GET['key'];
 ?> 
