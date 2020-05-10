@@ -6,7 +6,7 @@ include_once("datos.php");
 
 $cat= $_GET['key'];
 ?> 
-	<h3>Enzo mamalo: </h3>
+	<h3>Enzo:</h3>
 	<ul>
 	<?php
 	foreach($categorias as $key => $cat){
