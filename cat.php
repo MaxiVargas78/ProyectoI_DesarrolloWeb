@@ -1,14 +1,15 @@
 <?php
 include_once("header.php");
+
 require 'vendor/autoload.php';
 $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 
 $cat= $_GET['key'];
-$collection= $client-> infomaxi->categorias->find(["categoria" => $cat]);
+$collection= $client-> infomaxi->categorias->find(['categoria' => $cat]);
 $prods = array();
 foreach ($collection as $entry) {
-    $prods[$entry['_id']->__toString() ] = $entry['name'];
+    $prods[ $entry['_id']->__toString() ] = $entry['name'];
 
 }
 
@@ -25,12 +26,6 @@ foreach ($collection as $entry) {
 		echo "<li><a href='prod.php?key=$key'>$value</a></li>";
 	}
 	?>
-	<?php 
-
-	?>
-	
-	
-	
 	</ul>
 
 <?php
