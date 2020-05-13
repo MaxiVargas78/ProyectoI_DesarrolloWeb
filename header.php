@@ -21,5 +21,6 @@
       <h1>Bienvenido a InfoMax</h1>
       <p class="lead text-muted">Conectando Soluciones</p>
       <p class="lead text-muted">Encuentra todo lo necesario para tu Pyme, Empresa o Institucion</p>
+    
     </div>
   </section>
