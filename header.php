@@ -7,7 +7,7 @@
   <body>
   <nav class="navbar navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
-    <img src="https://images.vexels.com/media/users/3/142890/isolated/lists/4ea2d7c4bf3cad23a4f18ee58752deb8-anillos-de-alta-tecnologia-logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    <img src="https://images.vexels.com/media/users/3/142890/isolated/lists/4ea2d7c4bf3cad23a4f18ee58752deb8-anillos-de-alta-tecnologia-logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
     InfoMax
   </a>
   
@@ -44,7 +44,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://tec.mx/sites/default/files/styles/header_full/public/2018-05/Tecnologi%CC%81a.jpg?itok=LSAu38IZ" class="d-block w-100" alt="">
+      <img src="https://tec.mx/sites/default/files/styles/header_full/public/2018-05/Tecnologi%CC%81a.jpg?itok=LSAu38IZ" height="1000" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
