@@ -37,7 +37,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/Slide1.jpg" height="400" class="d-block w-100" alt="">
+      <img src="img/Slide1.jpg" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
         <h5></h5>
         <p></p>
