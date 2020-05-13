@@ -44,7 +44,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://tec.mx/sites/default/files/styles/header_full/public/2018-05/Tecnologi%CC%81a.jpg?itok=LSAu38IZ" height="1000" class="d-block w-100" alt="">
+      <img src="https://tec.mx/sites/default/files/styles/header_full/public/2018-05/Tecnologi%CC%81a.jpg?itok=LSAu38IZ" height="10" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
