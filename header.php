@@ -7,7 +7,7 @@
   <body>
   <nav class="navbar navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
-    <img src="https://i7.pngflow.com/pngimage/568/379/png-technology-computer-icons-technology-electronics-text-logo-engineering-clipart.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    <img src="https://images.vexels.com/media/users/3/142890/isolated/lists/4ea2d7c4bf3cad23a4f18ee58752deb8-anillos-de-alta-tecnologia-logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
     InfoMax
   </a>
   
@@ -17,13 +17,13 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#"></a>
       </li>
     </ul>
     <span class="navbar-text">
