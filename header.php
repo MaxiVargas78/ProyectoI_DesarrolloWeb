@@ -7,10 +7,10 @@
   <body>
   <nav class="navbar navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
-    <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-    Bootstrap
+    <img src="https://i7.pngflow.com/pngimage/568/379/png-technology-computer-icons-technology-electronics-text-logo-engineering-clipart.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    InfoMax
   </a>
-  <a class="navbar-brand" href="#">Navbar w/ text</a>
+  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
