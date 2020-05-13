@@ -20,8 +20,8 @@
       </nav>
     </div>
   <section class="jumbotron text-center">
+    <img src="https://www.bbva.com/wp-content/uploads/2018/06/fintech-tecnologia-innovacion-digital-blockchain-bbva_opt-1024x431.jpg" class="img-fluid" alt="Responsive image">
     <div class="container">
-      <img src="https://www.bbva.com/wp-content/uploads/2018/06/fintech-tecnologia-innovacion-digital-blockchain-bbva_opt-1024x431.jpg" class="img-fluid" alt="Responsive image">
       <h1>Bienvenido a InfoMax</h1>
       <p class="lead text-muted">Conectando Soluciones</p>
       <p class="lead text-muted">Encuentra todo lo necesario para tu Pyme, Empresa o Institucion</p>
