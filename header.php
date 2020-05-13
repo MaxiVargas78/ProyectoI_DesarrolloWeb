@@ -26,9 +26,6 @@
         <a class="nav-link" href="#"></a>
       </li>
     </ul>
-    <span class="navbar-text">
-      Navbar text with an inline element
-    </span>
   </div>
 </nav>
 
@@ -40,14 +37,14 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://www.bbva.com/wp-content/uploads/2018/06/fintech-tecnologia-innovacion-digital-blockchain-bbva_opt-1024x431.jpg" class="d-block w-100" alt="...">
+      <img src="https://static.wixstatic.com/media/a3fad0_a53157815a4a471896a7b9bc8bf328f7~mv2.png" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://tec.mx/sites/default/files/styles/header_full/public/2018-05/Tecnologi%CC%81a.jpg?itok=LSAu38IZ" class="d-block w-100" alt="...">
+      <img src="https://tec.mx/sites/default/files/styles/header_full/public/2018-05/Tecnologi%CC%81a.jpg?itok=LSAu38IZ" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -70,3 +67,5 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+//https://www.bbva.com/wp-content/uploads/2018/06/fintech-tecnologia-innovacion-digital-blockchain-bbva_opt-1024x431.jpg
