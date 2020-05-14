@@ -17,10 +17,10 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"></a>
+        <a class="nav-link" href="#">Quienes Somos</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"></a>
@@ -49,18 +49,16 @@
     <div class="carousel-item">
       <img src="img/Slide2.jpg" height="524" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
+    <span class="sr-only">Anterior</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
+    <span class="sr-only">Siguiente</span>
   </a>
 </div>
 
