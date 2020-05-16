@@ -16,7 +16,10 @@ $cat= $_GET['key'];
 <div class="alert alert.primary" role="alert">
 	<h3>Elija Servicio</h3>
 	<ul class="gallery-container">
-</ul>
+        <div class="gallery__item"><img src="" alt="Descripcion 1" class="gallery__img"> </div>
+        <div class="gallery__item"><img src="" alt="Descripcion 2" class="gallery__img"> </div>
+		<div class="gallery__item"><img src="" alt="Descripcion 3" class="gallery__img"> </div>
+ </ul>
 	<?php
 	foreach($categorias as $key => $cat){
 	?>
@@ -25,11 +28,7 @@ $cat= $_GET['key'];
 	<?php
 	} 
 	?>
-	<div class="gallery-container">
-        <div class="gallery__item"><img src="" alt="Descripcion 1" class="gallery__img"> </div>
-        <div class="gallery__item"><img src="" alt="Descripcion 2" class="gallery__img"> </div>
-		<div class="gallery__item"><img src="" alt="Descripcion 3" class="gallery__img"> </div>
- </div>
+	
 	</ul>
 	</div>
 <?php
