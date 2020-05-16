@@ -15,7 +15,7 @@ $cat= $_GET['key'];
 ?> 
 <div class="alert alert.primary" role="alert">
 	<h3>Elija Servicio</h3>
-	<ul class="list-group">
+	<ul class="gallery-container">
 </ul>
 	<?php
 	foreach($categorias as $key => $cat){
@@ -26,9 +26,9 @@ $cat= $_GET['key'];
 	} 
 	?>
 	<div class="gallery-container">
-        <div class="gallery__item"><img src="img/internet.jpg" alt="Descripcion 1" class="gallery__img"> </div>
-        <div class="gallery__item"><img src="img/Verduras.jpg" alt="Descripcion 2" class="gallery__img"> </div>
-		<div class="gallery__item"><img src="img/Leña.jpg" alt="Descripcion 3" class="gallery__img"> </div>
+        <div class="gallery__item"><img src="" alt="Descripcion 1" class="gallery__img"> </div>
+        <div class="gallery__item"><img src="" alt="Descripcion 2" class="gallery__img"> </div>
+		<div class="gallery__item"><img src="" alt="Descripcion 3" class="gallery__img"> </div>
  </div>
 	</ul>
 	</div>
