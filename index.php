@@ -44,7 +44,7 @@ $cat= $_GET['key'];
 	<?php
 	foreach($categorias as $key => $cat){
 	?>
-		<li class="list-group-item"><a href="cat.php?key=<?php echo $key?>"><?php echo $cat?></a></li>
+		<li class="card-group"><a href="cat.php?key=<?php echo $key?>"><?php echo $cat?></a></li>
 		
 	<?php
 	} 
