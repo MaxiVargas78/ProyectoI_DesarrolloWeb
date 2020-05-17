@@ -19,8 +19,11 @@ foreach ($collection as $entry) {
 //print_r($productos[$cat]);
 ?> 
 <div class="card bg-dark mb-3">
+
   <h5 class="card-header text-white bg-dark mb-3">Servicio Internet</h5>
+
   <div class="card-body">
+  <img src="img/internet.jpg" class="card-img-top" alt="...">
   <?php
 	foreach($prods as $key => $value){
 		echo "<li><a href='prod.php?key=$key'>$value</a></li>";
