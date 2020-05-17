@@ -17,7 +17,7 @@ $cat= $_GET['key'];
 	<h3>Elija Servicio</h3>
 	<div class="card-group">
   <div class="card">
-    <img src="img/internet.jpg" class="card-img-top" alt="...">
+    <img src="img/internet.jpg" weight="100" height="100" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title"><a href="cat.php?key=<?php echo $key?>"></h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
