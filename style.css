@@ -30,3 +30,7 @@ a {
 footer {
     color: #265B6A;
 }
+
+.navbar-brand {
+    color: black;
+}
