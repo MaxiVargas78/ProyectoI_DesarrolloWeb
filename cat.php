@@ -19,20 +19,17 @@ foreach ($collection as $entry) {
 //print_r($productos[$cat]);
 ?> 
 <div class="card bg-dark mb-3">
-
-  <h5 class="card-header text-white bg-dark mb-3">Servicio Internet</h5>
-
-  <div class="card-body">
-  <img src="img/internet.jpg" class="card-img-top" alt="...">
+	<h5 class="card-header text-white bg-dark mb-3">Servicio Internet</h5>
+	<ul class="list-group bg-dark mb-3">
   <?php
 	foreach($prods as $key => $value){
-		echo "<li><a href='prod.php?key=$key'>$value</a></li>";
+	?>
+		 <li class="list-group-item bg-dark mb-3"><a href='prod.php?key='<?echo $key?>"><?php $value?></a></li>";
+	<?php
 	}
 	?>
   </div>
 </div>
-	
-	
 <?php
 include_once("footer.php");
 ?>
