@@ -28,8 +28,7 @@ foreach ($collection as $entry) {
 	  
     </div>
     <div class="col-md-8">
-      <div class="card-body">
-	  <ul>
+	<ul class="list-group">
 	<?php
 	foreach($prods as $key => $value){
 		echo "<li><a href='prod.php?key=$key'>$value</a></li>";
