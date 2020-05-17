@@ -19,7 +19,7 @@ $cat= $_GET['key'];
   <div class="card">
     <img src="img/internet.jpg" weight="100" height="100" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title"><a href="cat.php?key=<?php echo $key?>"></h5>
+      <h5 class="card-title" href="cat.php?key=<?php echo $key?>">
       <p class="card-text"></p>
     </div>
   </div>
