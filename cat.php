@@ -20,6 +20,7 @@ foreach ($collection as $entry) {
 ?> 
 	<h3>Servicio:</h3>
 	<div class= "card bg-dark mb-3">
+	<div class="card-header">
 	<ul>
 	<?php
 	foreach($prods as $key => $value){
@@ -27,6 +28,7 @@ foreach ($collection as $entry) {
 	}
 	?>
 	</ul>
+</div>
 </div>
 
 <?php
