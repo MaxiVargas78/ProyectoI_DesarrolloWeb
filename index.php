@@ -19,10 +19,7 @@ $cat= $_GET['key'];
     <div class="card-body">
       <h5 class="card-title">Servicio Internet</h5>
       <p class="card-text">Encuentra los mejores planes y servicios de Internet.</p>
-      <li class="nav-item">
-        <a class="nav-link active" href="cat.php?key=5eb7b2812c54ea1bdc3c8aed"> Ver Más</a>
-        <a href="cat.php?key=5eb7b2812c54ea1bdc3c8aed" class="btn btn-primary">Ver Más</s></a>
-      </li>
+     <a href="cat.php?key=5eb7b2812c54ea1bdc3c8aed" class="btn btn-primary">Ver Más</s></a>
     </div>
   </div>
   <div class="card">
