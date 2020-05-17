@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card text-white bg-dark mb-3">
   <div class="card-header">
     Desarrollado por MVXIANDRESS© 
   </div>
