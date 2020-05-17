@@ -13,7 +13,7 @@ foreach ($collection as $entry) {
 
 $cat= $_GET['key'];
 ?> 
-<div class="card text-center">
+<div class="card text-white bg-dark mb-3">
   <div class="card-header">
     Featured
   </div>
