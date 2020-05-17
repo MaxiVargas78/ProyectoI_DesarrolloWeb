@@ -24,7 +24,7 @@ foreach ($collection as $entry) {
   <?php
 	foreach($prods as $key => $value){
 	?>
-		 <li class="list-group-item list-group-item-action active"> <a href="prod.php?key=<?php echo $key?>"><?php echo $value?></a></li>
+		 <li class="list-group-item list-group-item-action"> <a href="prod.php?key=<?php echo $key?>"><?php echo $value?></a></li>
 	<?php
 	}
 	?>
