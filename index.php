@@ -13,13 +13,12 @@ foreach ($collection as $entry) {
 
 $cat= $_GET['key'];
 ?> 
-<div class="alert alert.primary" role="alert">
-	<h3>Elija Servicio</h3>
 	<div class="card-group">
+  <h3>Elija Servicio</h3>
   <div class="card">
     <img src="img/internet.jpg" weight="100" height="100" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title" href="cat.php?key=<?php echo $key?>">
+      <h5 class="card-title">Card Title</5>
       <p class="card-text"></p>
     </div>
   </div>
