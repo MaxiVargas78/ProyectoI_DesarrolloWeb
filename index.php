@@ -14,8 +14,8 @@ foreach ($collection as $entry) {
 $cat= $_GET['key'];
 ?> 
 <div class="card text-center bg-dark mb-3">
-  <div class="card-header">
-    Featured
+  <div class="card-header text-white">
+    SERVICIOS & SOLUCIONES PARA TI
   </div>
 <div class="card-deck">
   <div class="card">
