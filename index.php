@@ -13,28 +13,38 @@ foreach ($collection as $entry) {
 
 $cat= $_GET['key'];
 ?> 
-<hr  color="black" size=3>
-<h2>Categorias</h2>
-<hr  color="black" size=3>
-<ul class= "categorias">
-	<nav> 
-		<li class="enumeracion"><a href="cat.php?key=5eb8cc49618a191062d46722">Frutas</a></li>
-	</nav>
-	<nav> 
-		<li class="enumeracion"><a href="cat.php?key=5eb8cc5a618a191062d46723">Verduras</a></li>
-	</nav>
-	<nav> 
-		<li class="enumeracion"><a href="cat.php?key=5eb8cc66618a191062d46724">Leña</a></li>
-	</nav>	
-</ul>
-
-
-<div class="gallery-container">
-        <div class="gallery__item"><img src="img/internet.jpg" alt="Descripcion 1" class="gallery__img"> </div>
-        <div class="gallery__item"><img src="img/internet.jpg" alt="Descripcion 2" class="gallery__img"> </div>
-		<div class="gallery__item"><img src="img/internet.jpg" alt="Descripcion 3" class="gallery__img"> </div>
- </div>
-	
+<div class="card-deck">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>	
 <?php
 include_once("footer.php");
 ?>
