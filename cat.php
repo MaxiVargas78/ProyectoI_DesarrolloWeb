@@ -20,11 +20,11 @@ foreach ($collection as $entry) {
 ?> 
 <div class="card bg-dark mb-3">
 	<h5 class="card-header text-white bg-dark mb-3">Servicio Internet</h5>
-	<ul class="card-deck bg-dark mb-3">
+	<ul class="list-group">
   <?php
 	foreach($prods as $key => $value){
 	?>
-		 <li class="list-group-item text-white bg-dark mb-3"> <a href="prod.php?key=<?php echo $key?>"><?php echo $value?></a></li>
+		 <li class="list-group-item list-group-item-success text-white bg-dark mb-3"> <a href="prod.php?key=<?php echo $key?>"><?php echo $value?></a></li>
 	<?php
 	}
 	?>
