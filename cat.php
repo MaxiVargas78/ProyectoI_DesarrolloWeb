@@ -18,12 +18,14 @@ foreach ($collection as $entry) {
 //print_r($prods);
 //print_r($productos[$cat]);
 ?> 
-<div class="card">
-  <h5 class="card-header">Featured</h5>
+<div class="card bg-dark mb-3">
+  <h5 class="card-header text-white bg-dark mb-3">Servicio Internet</h5>
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+  <?php
+	foreach($prods as $key => $value){
+		echo "<li><a href='prod.php?key=$key'>$value</a></li>";
+	}
+	?>
   </div>
 </div>
 	
@@ -31,9 +33,3 @@ foreach ($collection as $entry) {
 <?php
 include_once("footer.php");
 ?>
-<?php
-	foreach($prods as $key => $value){
-		echo "<li><a href='prod.php?key=$key'>$value</a></li>";
-	}
-	?>
-	</ul>
