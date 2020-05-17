@@ -30,9 +30,9 @@ $cat= $_GET['key'];
 
 
 <div class="gallery-container">
-        <div class="gallery__item"><img src="img/Frutas.jpg" alt="Descripcion 1" class="gallery__img"> </div>
-        <div class="gallery__item"><img src="img/Verduras.jpg" alt="Descripcion 2" class="gallery__img"> </div>
-		<div class="gallery__item"><img src="img/Leña.jpg" alt="Descripcion 3" class="gallery__img"> </div>
+        <div class="gallery__item"><img src="img/internet.jpg" alt="Descripcion 1" class="gallery__img"> </div>
+        <div class="gallery__item"><img src="img/internet.jpg" alt="Descripcion 2" class="gallery__img"> </div>
+		<div class="gallery__item"><img src="img/internet.jpg" alt="Descripcion 3" class="gallery__img"> </div>
  </div>
 	
 <?php
