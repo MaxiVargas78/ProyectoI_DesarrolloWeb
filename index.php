@@ -13,6 +13,10 @@ foreach ($collection as $entry) {
 
 $cat= $_GET['key'];
 ?> 
+<div class="card text-center">
+  <div class="card-header">
+    Featured
+  </div>
 <div class="card-deck">
   <div class="card">
     <img src="img/internet.jpg" class="card-img-top" alt="...">
