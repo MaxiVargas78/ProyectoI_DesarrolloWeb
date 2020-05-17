@@ -18,10 +18,10 @@ foreach ($collection as $entry) {
 //print_r($prods);
 //print_r($productos[$cat]);
 ?> 
-<div class="card mb-3" style="max-width: 540px;">
 <li class="nav-item">
-        <a class="nav-link active" href="#">Servicios de Internet</a>
-      </li>
+<a class="nav-link active" href="#">Servicios de Internet</a>
+</li>
+<div class="card mb-3" style="max-width: 540px;">
   <div class="row no-gutters">
     <div class="col-md-4">
 	  <img src="img/internet.jpg" class="card-img" alt="...">
