@@ -1,10 +1,6 @@
-    <div class="card">
+<div class="card">
   <div class="card-header">
     Desarrollado por MVXIANDRESS© 
-  </div>
-  <div class="card-body">
-    <blockquote class="blockquote mb-0">
-    </blockquote>
   </div>
 </div>
 
