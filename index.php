@@ -31,7 +31,7 @@ $cat= $_GET['key'];
     <div class="card-body">
       <h5 class="card-title">Servicio Software</h5>
       <p class="card-text">Encuentra productos de calidad.</p>
-      <a href="cat.php?key=5eb7b2812c54ea1bdc3c8aed" class="btn btn-primary">Ver Más</s></a>
+      <a href="cat.php?key=5eb7b28f2c54ea1bdc3c8aee" class="btn btn-primary">Ver Más</s></a>
     </div>
   </div>
   <div class="card">
@@ -39,7 +39,7 @@ $cat= $_GET['key'];
     <div class="card-body">
       <h5 class="card-title">Servicio Hardware</h5>
       <p class="card-text">Encuentra todo de las mejores marcas del mundo.</p>
-      <a href="cat.php?key=5eb7b2812c54ea1bdc3c8aed" class="btn btn-primary">Ver Más</s></a>
+      <a href="cat.php?key=5eb7b2a02c54ea1bdc3c8aef" class="btn btn-primary">Ver Más</s></a>
     </div>
   </div>
 </div>	

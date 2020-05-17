@@ -19,6 +19,7 @@ foreach ($collection as $entry) {
 //print_r($productos[$cat]);
 ?> 
 	<h3>Servicio:</h3>
+	<div class= "card bg-dark mb-3">
 	<ul>
 	<?php
 	foreach($prods as $key => $value){
@@ -26,6 +27,7 @@ foreach ($collection as $entry) {
 	}
 	?>
 	</ul>
+</div>
 
 <?php
 include_once("footer.php");
