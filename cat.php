@@ -24,12 +24,13 @@ foreach ($collection as $entry) {
   <?php
 	foreach($prods as $key => $value){
 	?>
-		 <li class="list-group-item bg-dark mb-3"><a href='prod.php?key='<?echo $key?>"><?php $value?></a></li>";
+		 <li class="list-group-item bg-dark mb-3"> <a href='prod.php?key='<?echo $key?><?php $value?></a></li>";
 	<?php
 	}
 	?>
   </div>
 </div>
+</ul>
 <?php
 include_once("footer.php");
 ?>
