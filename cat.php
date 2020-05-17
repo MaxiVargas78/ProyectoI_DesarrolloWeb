@@ -18,19 +18,29 @@ foreach ($collection as $entry) {
 //print_r($prods);
 //print_r($productos[$cat]);
 ?> 
-	<h3>Servicio:</h3>
-	<div class= "card bg-dark mb-3">
-	<div class="card-header">
-	<ul>
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="..." class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	  <ul>
 	<?php
 	foreach($prods as $key => $value){
 		echo "<li><a href='prod.php?key=$key'>$value</a></li>";
 	}
 	?>
 	</ul>
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-
+	
+	
 <?php
 include_once("footer.php");
 ?>
