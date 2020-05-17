@@ -6,7 +6,7 @@
   </head>
   <body>
   <nav class="navbar navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="/index.php">
     <img src="https://images.vexels.com/media/users/3/142890/isolated/lists/4ea2d7c4bf3cad23a4f18ee58752deb8-anillos-de-alta-tecnologia-logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
     InfoMax
   </a>
@@ -20,7 +20,7 @@
         <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Quienes Somos</a>
+        <a class="nav-link" href="/somos.php">Quienes Somos</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"></a>
