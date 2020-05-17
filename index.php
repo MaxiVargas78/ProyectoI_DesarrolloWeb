@@ -13,21 +13,30 @@ foreach ($collection as $entry) {
 
 $cat= $_GET['key'];
 ?> 
-  <div class="container-sm">100% wide until small breakpoint</div>
-  <div class="container-md">100% wide until medium breakpoint</div>
-  <div class="container-lg">100% wide until large breakpoint</div>
-  <div class="container-xl">100% wide until extra large breakpoint</div>
-	<?php
-	foreach($categorias as $key => $cat){
-	?>
-		<li class="card-group"><a href="cat.php?key=<?php echo $key?>"><?php echo $cat?></a></li>
-		
-	<?php
-	} 
-	?>
+<hr  color="black" size=3>
+<h2>Categorias</h2>
+<hr  color="black" size=3>
+<ul class= "categorias">
+	<nav> 
+		<li class="enumeracion"><a href="cat.php?key=5eb8cc49618a191062d46722">Frutas</a></li>
+	</nav>
+	<nav> 
+		<li class="enumeracion"><a href="cat.php?key=5eb8cc5a618a191062d46723">Verduras</a></li>
+	</nav>
+	<nav> 
+		<li class="enumeracion"><a href="cat.php?key=5eb8cc66618a191062d46724">Leña</a></li>
+	</nav>	
+</ul>
+
+
+<div class="gallery-container">
+        <div class="gallery__item"><img src="img/Frutas.jpg" alt="Descripcion 1" class="gallery__img"> </div>
+        <div class="gallery__item"><img src="img/Verduras.jpg" alt="Descripcion 2" class="gallery__img"> </div>
+		<div class="gallery__item"><img src="img/Leña.jpg" alt="Descripcion 3" class="gallery__img"> </div>
+ </div>
 	
-	</ul>
-	</div>
 <?php
 include_once("footer.php");
 ?>
+
+
