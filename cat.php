@@ -12,10 +12,8 @@ $collection= $client->infomaxi->productos->find(['categoria' => $cat]);
 $prods = array();
 foreach ($collection as $entry) {
     $prods[ $entry['_id']->__toString() ] = $entry['name'];
-
+$producto= $client->infomaxi->productos->findOne(['_id' => new MongoDB\BSON\ObjectID($prod)]);
 }
-$producto= $client->infomaxi->productos->$cat->findOne(['_id' => new MongoDB\BSON\ObjectID($prod)]);
-
 $nombre = $producto['name'];
 $desc = $producto['desc'];
 $img = $producto['img'];
