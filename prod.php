@@ -11,6 +11,7 @@ $producto= $client->infomaxi->productos->findOne(['_id' => new MongoDB\BSON\Obje
 
 $nombre = $producto['name'];
 $desc = $producto['desc'];
+$desc1 = $producto['desc1'];
 $img = $producto['img'];
 ?> 
 <h5 class="card-header text-white bg-dark mb-3">Productos</h5>
@@ -23,6 +24,7 @@ $img = $producto['img'];
       <div class="card-body">
         <h5 class="card-title"><?php echo $nombre?></h5>
         <p class="card-text"><?php echo $desc;?></p>
+        <h6 class="card-text"><?php echo $desc1;?></h6>
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
