@@ -7,12 +7,11 @@ require 'vendor/autoload.php';
 $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 
-$cat= $_GET['key'];
-$collection= $client->infomaxi->productos->find(['categoria' => $cat]);
-$prods = array();
-foreach ($collection as $entry) {
-    $prods[ $entry['_id']->__toString() ] = $entry['name'];
 $producto= $client->infomaxi->productos->findOne(['_id' => new MongoDB\BSON\ObjectID($prod)]);
+$prods = array();
+  foreach ($producto as $entry) {
+    $prods[ $entry['_id']->__toString() ] = $entry['name'];
+ 
 }
 $nombre = $producto['name'];
 $desc = $producto['desc'];
