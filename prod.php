@@ -13,13 +13,14 @@ $nombre = $producto['name'];
 $desc = $producto['desc'];
 $img = $producto['img'];
 ?> 
-	<h3><?php echo $nombre?></h3>
-	<h><i><?php echo $desc;?></i></h>
-	<a><img src="<?php echo $img;?>"></a>
-	<ul>
-	
-	</ul>
-
+<div class="card mb-3">
+  <img src="<?php echo $img;?>" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><?php echo $nombre?></h5>
+    <p class="card-text"><?php echo $desc;?></p>
+   
+  </div>
+</div>
 <?php
 include_once("footer.php");
 ?>
