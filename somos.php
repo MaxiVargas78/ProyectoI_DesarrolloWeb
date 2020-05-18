@@ -3,7 +3,7 @@ include_once("header.php");
 include_once("datos.php");
 ?>
 
-<div class="card bg-dark mb-3">
+<div class="card">
   <h5 class="card-header bg-dark mb-3">Quienes Somos</h5>
   <div class="card-body">
     <h5 class="card-title">InfoMax</h5>
