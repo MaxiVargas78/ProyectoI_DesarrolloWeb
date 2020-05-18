@@ -15,7 +15,7 @@ $img = $producto['img'];
 ?> 
 	<h3><?php echo $nombre?></h3>
 	<h><i><?php echo $desc;?></i></h>
-	<a><img src="<? echo $img;?>"></a>
+	<a><img src="<?php echo $img;?>"></a>
 	<ul>
 	
 	</ul>
