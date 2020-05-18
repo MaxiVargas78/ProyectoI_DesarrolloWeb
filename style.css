@@ -3,13 +3,19 @@ body {
     background-color: #265B6A;
 }
 h1 {
-    color: #d4726a;
+    color: #ffb0aa;
 }
 h3 {
     color: #ffb0aa;
 }
 p {
     color: #265B6A;
+}
+h6 {
+    color: #475585;
+}
+h5 {
+    color: #804b15;
 }
 a {
     color: #804b15;
@@ -25,10 +31,6 @@ a {
 .navbar-brand{
 
     color: #ffb0aa;
-}
-
-.card {
-    color: black;
 }
 
 .card {

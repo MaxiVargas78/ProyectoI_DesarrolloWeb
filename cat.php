@@ -19,7 +19,7 @@ foreach ($collection as $entry) {
 //print_r($productos[$cat]);
 ?> 
 <div class="card bg-dark mb-3">
-	<h5 class="card-header text-white bg-dark mb-3">Servicio Internet</h5>
+	<h5 class="card-header text-white bg-dark mb-3">Servicios</h5>
 	<ul class="list-group bg-dark mb-3">
   <?php
 	foreach($prods as $key => $value){
