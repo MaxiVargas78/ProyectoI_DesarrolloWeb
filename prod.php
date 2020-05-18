@@ -13,6 +13,7 @@ $nombre = $producto['name'];
 $desc = $producto['desc'];
 $img = $producto['img'];
 ?> 
+<h5 class="card-header text-white bg-dark mb-3">Productos</h5>
 <div class="card mb-3" style="max-width: 540px;">
   <div class="row no-gutters">
     <div class="col-md-4">
