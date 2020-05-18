@@ -11,6 +11,7 @@ $producto= $client->infomaxi->productos->findOne(['_id' => new MongoDB\BSON\Obje
 
 $nombre = $producto['name'];
 $desc = $producto['desc'];
+$img = $producto['img'];
 ?> 
 	<h3><?php echo $nombre?></h3>
     <h><i><?php echo $desc;?></i></h>
