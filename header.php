@@ -1,3 +1,12 @@
+<?php
+
+  session_start[];
+
+?> 
+
+
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,7 +33,7 @@
         <a class="nav-link" href="/somos.php">Quienes Somos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"></a>
+        <a class="nav-link" href="/login.php">Iniciar Sesión</a>
       </li>
     </ul>
   </div>
@@ -38,6 +47,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
+      <a class="nav-link" href='/login.php'> INICIAR SESIÓN<span class="sr-only">(current)</span></a>
       <img src="img/Slide.jpg" height="524" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
       </div>
