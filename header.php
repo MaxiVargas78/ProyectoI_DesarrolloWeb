@@ -22,10 +22,10 @@
   </a>
   <div class="collapse navbar-collapse mr-sm-2" id="navbarNav">
     <ul class="navbar-nav mr-sm-2">
-      <li class="nav-item">
+      <li class="nav-item my-2 my-sm-0">
         <a class="nav-link" href="/login.php">Iniciar Sesión<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item my-2 my-sm-0">
         <a class="nav-link" href="/somos.php">Quienes Somos</a>
       </li>
     </ul>
