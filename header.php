@@ -20,20 +20,13 @@
     <img src="https://images.vexels.com/media/users/3/142890/isolated/lists/4ea2d7c4bf3cad23a4f18ee58752deb8-anillos-de-alta-tecnologia-logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
     InfoMax
   </a>
-  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
+  <div class="collapse navbar-collapse bg-dark" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/login.php">Iniciar Sesión</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/somos.php">Quienes Somos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/login.php">Iniciar Sesión</a>
       </li>
     </ul>
   </div>
