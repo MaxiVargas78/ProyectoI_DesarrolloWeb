@@ -20,10 +20,10 @@
     <img src="https://images.vexels.com/media/users/3/142890/isolated/lists/4ea2d7c4bf3cad23a4f18ee58752deb8-anillos-de-alta-tecnologia-logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
     InfoMax
   </a>
-  <div class="collapse navbar-collapse bg-dark" id="navbarNav">
+  <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/login.php">Iniciar Sesión</a>
+        <a class="nav-link" href="/login.php">Iniciar Sesión<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/somos.php">Quienes Somos</a>
@@ -40,7 +40,6 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <a class="nav-link" href='/login.php'> INICIAR SESIÓN<span class="sr-only">(current)</span></a>
       <img src="img/Slide.jpg" height="524" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
       </div>
