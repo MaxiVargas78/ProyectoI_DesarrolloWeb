@@ -29,14 +29,15 @@
         <a class="nav-link" href="/somos.php">Quienes Somos</a>
       </li>
       <?php
-      if(isset($_SESSION['usuario']))(
+      if(isset($_SESSION['usuario'])){
         echo "<h1> Buen día".$_SESSION['usuario']."</h1>";
-        )
-        else(
+      }  
+        else{
           echo "<h1>Iniciar Sesión</h1>";
-          echo "<a href='login.php'>Ingresar</a>";        )
-         )
-    </ul>
+          echo "<a href='login.php'>Ingresar</a>";
+        }
+        ?>
+      </ul>
   </div>
 </nav>
 
