@@ -31,7 +31,7 @@
       </ul>
       </div>
       <div>
-      <ul class="nav justify-content-end pull-xs-right">
+      <ul class="nav justify-content-end  text-white pull-xs-right">
      <li class="nav-item">
       <?php
       if(isset($_SESSION['usuario'])){
