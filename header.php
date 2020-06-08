@@ -39,8 +39,8 @@
       }  
         else{}
         ?>
-        <li>
-        <img src="https://w7.pngwing.com/pngs/800/318/png-transparent-shopping-cart-grocery-store-shopping-card-angle-orange-supermarket-thumbnail.png" href="/carritocompra.php" width="40" height="40" class="d-inline-block align-top" alt="">
+        <li class="navbar-brand" href="/carritocompra.php">
+        <img src="https://img2.freepng.es/20180419/jiw/kisspng-shopping-cart-x-cart-clip-art-maroon-vector-5ad81f06742335.6766874715241131584757.jpg"  width="40" height="40" class="d-inline-block align-top" alt="">
         </li>
       </ul>
   </div>
