@@ -29,6 +29,8 @@
         <a class="nav-link" href="/somos.php">Quienes Somos</a>
       </li>
       </ul>
+      </div>
+      <div>
       <ul class="nav justify-content-end pull-xs-right">
      <li class="nav-item">
       <?php
