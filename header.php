@@ -39,9 +39,9 @@
       }  
         else{}
         ?>
-        <li class="navbar-brand" href="/carritocompra.php">
-        <img src="https://img2.freepng.es/20180419/jiw/kisspng-shopping-cart-x-cart-clip-art-maroon-vector-5ad81f06742335.6766874715241131584757.jpg"  width="40" height="40" class="d-inline-block align-top" alt="">
-        </li>
+        <a class="navbar-brand" href="/carritocompra.php">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIi8vaTew44VPb17QtN3kJdrua5aQAui0HM7MiAsjEacKAo2qt&usqp=CAU"  width="40" height="40" class="d-inline-block align-top" alt="">
+        </a>
       </ul>
   </div>
 </nav>
