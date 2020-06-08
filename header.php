@@ -28,15 +28,16 @@
       <li class="nav-item my-2 my-sm-0">
         <a class="nav-link" href="/somos.php">Quienes Somos</a>
       </li>
+      </ul>
+      <ul class="nav justify-content-end">
+     <li class="nav-item">
       <?php
       if(isset($_SESSION['usuario'])){
         echo "<h1> Buen día".$_SESSION['usuario']."</h1>";
       }  
-        else{
-          echo "<h1>Iniciar Sesión</h1>";
-          echo "<a href='login.php'>Ingresar</a>";
-        }
+        else{}
         ?>
+        </li>
       </ul>
   </div>
 </nav>
