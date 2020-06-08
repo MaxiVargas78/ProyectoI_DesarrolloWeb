@@ -40,7 +40,7 @@
         else{}
         ?>
         <a class="navbar-brand" href="/carritocompra.php">
-        <img src="https://png.pngtree.com/png_detail/20181019/red-shopping-cart-png-clipart_2994950.png"  width="40" height="40" class="d-inline-block align-top" alt="">
+        <img src="https://cdn.pixabay.com/photo/2014/03/24/13/50/shopping-cart-294547_960_720.png"  width="40" height="40" class="d-inline-block align-top" alt="">
         </a>
       </ul>
   </div>
