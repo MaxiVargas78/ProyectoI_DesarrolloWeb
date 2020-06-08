@@ -33,7 +33,7 @@
      <li class="nav-item">
       <?php
       if(isset($_SESSION['usuario'])){
-        echo "<h1> Buen día".$_SESSION['usuario']."</h1>";
+        echo "<h1> Buen día ".$_SESSION['usuario']."</h1>";
       }  
         else{}
         ?>
