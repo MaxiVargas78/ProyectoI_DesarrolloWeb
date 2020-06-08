@@ -17,7 +17,7 @@
   <body>
   <nav class="navbar navbar-expand-lg bg-dark fixed-top">
   <a class="navbar-brand bg-dark text-white" href="/index.php">
-    <img src="https://images.vexels.com/media/users/3/142890/isolated/lists/4ea2d7c4bf3cad23a4f18ee58752deb8-anillos-de-alta-tecnologia-logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+    <img src="https://images.vexels.com/media/users/3/142890/isolated/lists/4ea2d7c4bf3cad23a4f18ee58752deb8-anillos-de-alta-tecnologia-logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
     InfoMax
   </a>
   <div class="collapse navbar-collapse mr-sm-2" id="navbarNav">
@@ -40,7 +40,7 @@
         else{}
         ?>
         <a class="navbar-brand" href="/carritocompra.php">
-        <img src="https://cdn.pixabay.com/photo/2014/03/24/13/50/shopping-cart-294547_960_720.png"  width="40" height="40" class="d-inline-block align-top" alt="">
+        <img src="https://cdn3.iconfinder.com/data/icons/e-commerce-2-2/380/2-512.png"  width="40" height="40" class="d-inline-block align-top" alt="">
         </a>
       </ul>
   </div>
