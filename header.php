@@ -15,7 +15,7 @@
   </head>
   
   <body>
-  <nav class="navbar navbar-expand-lg bg-dark">
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top">
   <a class="navbar-brand bg-dark text-white" href="/index.php">
     <img src="https://images.vexels.com/media/users/3/142890/isolated/lists/4ea2d7c4bf3cad23a4f18ee58752deb8-anillos-de-alta-tecnologia-logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
     InfoMax
@@ -29,11 +29,11 @@
         <a class="nav-link" href="/somos.php">Quienes Somos</a>
       </li>
       </ul>
-      <ul class="nav justify-content-end">
+      <ul class="nav justify-content-end pull-xs-right">
      <li class="nav-item">
       <?php
       if(isset($_SESSION['usuario'])){
-        echo "<h1> Buen día ".$_SESSION['usuario']."</h1>";
+        echo "<a> Buen día ".$_SESSION['usuario']."<a>";
       }  
         else{}
         ?>
