@@ -35,7 +35,7 @@
      <li class="nav-item">
       <?php
       if(isset($_SESSION['usuario'])){
-        echo "<a> Sesión iniciada como: ".$_SESSION['usuario']."<a>";
+        echo "<a>".$_SESSION['usuario']."<a>";
       }  
         else{}
         ?>
