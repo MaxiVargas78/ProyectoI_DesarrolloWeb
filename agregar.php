@@ -11,5 +11,5 @@ if(isset($_SESSION['carrito'][$_POST['producto']])){
     $_SESSION['carrito'][$_POST['producto']] = $_POST['cantidad'];
 }
 
-header("Location: /carrito.php");
+header("Location: /carritocompra.php");
 ?>
