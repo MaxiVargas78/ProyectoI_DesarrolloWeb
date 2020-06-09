@@ -34,7 +34,7 @@ echo"</tr>";
 }
 ?>
 </table>
-<b text-white>Total a pagar: $<?php echo $total; ?><center><button>Pagar</button><br></b></center>
+<a text-white>Total a pagar: $<?php echo $total; ?><center><button>Pagar</button><br></a></center>
 
 
 
