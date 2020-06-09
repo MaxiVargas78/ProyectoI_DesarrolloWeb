@@ -4,17 +4,37 @@ require 'vendor/autoload.php';
 $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 ?>
-<ul class="list-group bg-dark">
-<?php
-foreach($_SESSION['carrito'] as $prod => $cantidad){
 
+<ul class="list-group bg-dark">
+
+<table class="table">
+<tr>
+<th>Productos</th>
+<th>Cantidad</th>
+<th>Precio</th>
+<th>Total</th>
+</tr>
+<?php
+$total=0;
+foreach($_SESSION['carrito'] as $prod => $cantidad){
+echo "<tr>";
 $producto= $client->infomaxi->productos->findOne(['_id' => new MongoDB\BSON\ObjectID($prod)]);
 
 ?>
-    <li class="list-group-item bg-dark"><?php echo $producto['name'];?></li>
+
+    <td><?php echo $producto['name'];?></td>
+    <td><?php echo $cantidad;?></td>
+    <td>$<?php echo $producto['precio'];?></td>
+    <td>$<?php echo $producto['precio']*$cantidad;?></td>
+
+
 <?php
+$total += $producto['precio']*$cantidad;
+echo"</tr>";
 }
 ?>
+</table>
+<b>Total a pagar: $<?php echo $total; ?><center><button>Pagar</button><br></b></center>
 
 
 
