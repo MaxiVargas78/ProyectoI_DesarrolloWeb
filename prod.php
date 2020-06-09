@@ -25,7 +25,12 @@ $img = $producto['img'];
         <h5 class="card-title"><?php echo $nombre?></h5>
         <p class="card-text"><?php echo $desc;?></p>
         <h6 class="card-text"><?php echo $desc1;?></h6>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <p class="card-text"><small class="text-muted"><form action="agregar.php" method="POST">
+        Cantidad:
+        <input type="number" name="cantidad" value="1"/>
+        <input type="submit"  value="Agregar al carrito"/>
+        </form>
+        </small></p>
       </div>
     </div>
   </div>
