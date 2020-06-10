@@ -1,5 +1,8 @@
 <?php
 session_start();
+if($_POST['cantidad']<0){
+    die();
+}
 
 if(isset($_SESSION['carrito'])){
 $_SESSION['carrito'] = Array();
