@@ -7,7 +7,7 @@ $client=new MongoDB\Client($uri);
 
 <ul class="list-group bg-white">
 
-<table class="table">
+<table class="table text-white">
 <tr>
 <th>Productos</th>
 <th>Cantidad</th>
