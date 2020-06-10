@@ -5,7 +5,7 @@ $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 ?>
 
-<ul class="list-group bg-white">
+<ul class="list-group bg-dark">
 
 <table class="table text-white">
 <tr>
@@ -34,7 +34,7 @@ echo"</tr>";
 }
 ?>
 </table>
-<a text-white>Total a pagar: $<?php echo $total; ?><center><button>Pagar</button><br></a></center>
+<a class="text-white">Total a pagar: $<?php echo $total; ?><center><button>Pagar</button><br></a></center>
 
 
 
