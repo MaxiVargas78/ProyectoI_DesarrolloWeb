@@ -5,7 +5,7 @@ $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 ?>
 
-<ul class="list-group bg-orange">
+<ul class="list-group bg-white">
 
 <table class="table">
 <tr>
