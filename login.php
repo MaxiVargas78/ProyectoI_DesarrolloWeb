@@ -1,12 +1,14 @@
 <?php
 include_once("header.php");
 ?>
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
+<div class="card">
+  <div class="card-header">
+    Inicia Sesión
+  </div>
 <form action="redirect.php" method="POST">
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <label for="exampleInputEmail1">Nombre de Usuario</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
   </div>
   </div>
