@@ -1,7 +1,8 @@
 <?php
 include_once("header.php");
 ?>
-<div>
+<div class="row">
+  <div class="col-sm-6">
 <div class="card bg-dark text-white" style="width: 36rem;"  >
   <div class="card-header">
     Inicia Sesión
@@ -17,6 +18,7 @@ include_once("header.php");
   </div>
 </div>
 
+<div class="col-sm-6">
 <div class="card bg-dark text-white mb-3" style="width: 36rem;"  >
   <div class="card-header">
     Administrador
@@ -32,6 +34,7 @@ include_once("header.php");
   </div>
   <button type="submit" value="ingresar" class="btn btn-primary">Ingresar</button>
 </form>
+</div>
 </div>
 </div>
 </div>
