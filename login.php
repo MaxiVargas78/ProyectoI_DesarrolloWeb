@@ -27,7 +27,7 @@ include_once("header.php");
     Administrador
   </div>
   <form action="redirect1.php" method="POST">
-
+<center>
   <div class="form-group">
     <label for="exampleInputEmail1">Usuario</label>
     <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
