@@ -15,16 +15,23 @@ include_once("header.php");
   </div>
   </div>
 </div>
- 
-<center>
-<form action="redirect1.php" method="POST">
-Ingrese Cuenta Administrador:
-<input type="text" name="usuario">
-<input type="password" name="password">
-<input type="submit" value="ingresar">
-</form>
-</center>
 
+<div class="card bg-dark text-white" style="width: 36rem;"  >
+  <div class="card-header">
+    Administrador
+  </div>
+  <form action="redirect1.php" method="POST">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Usuario</label>
+    <input type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Contraseña</label>
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button type="submit" value="ingresar" class="btn btn-primary">Ingresar</button>
+</form>
+ 
 <?php
 include_once("footer.php");
 ?>
