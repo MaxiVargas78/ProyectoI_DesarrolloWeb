@@ -8,11 +8,13 @@ include_once("header.php");
     Inicia Sesión
   </div>
 <form action="redirect.php" method="POST">
+<center>
   <div class="form-group">
     <label for="exampleInputEmail1">Nombre de Usuario</label>
     <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
     <button type="submit"  value="Ingresar" class="btn btn-primary pull-xs-right">Ingresar</button>
+    </center>
     </form>
   </div>
   </div>
@@ -29,8 +31,8 @@ include_once("header.php");
     <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   <div class="form-group">
-    <label style="width: 25rem;" for="exampleInputPassword1">Contraseña</label>
-    <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+    <label  for="exampleInputPassword1">Contraseña</label>
+    <input style="width: 25rem;" type="password" name="password" class="form-control" id="exampleInputPassword1">
   </div>
   <button type="submit" value="ingresar" class="btn btn-primary">Ingresar</button>
 </form>
