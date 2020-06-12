@@ -10,10 +10,11 @@ include_once("header.php");
     <label for="exampleInputEmail1">Nombre de Usuario</label>
     <input style="width: 25rem;" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+    <button type="submit"  value="Ingresar" class="btn btn-primary">Ingresar</button>
   </div>
   </div>
 </div>
-  <button type="submit"  value="Ingresar" class="btn btn-primary">Ingresar</button>
+ 
 </form>
 <center>
 <form action="redirect.php" method="POST">
