@@ -12,9 +12,9 @@ include_once("header.php");
   <div class="form-group">
     <label for="exampleInputEmail1">Nombre de Usuario</label>
     <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+    <small id="emailHelp" class="form-text text-muted">Nunca compartiremos sus datos con nadie más.</small>
     <button type="submit"  value="Ingresar" class="btn btn-primary pull-xs-right">Ingresar</button>
-    </center>
+</center>
     </form>
   </div>
   </div>
@@ -26,6 +26,7 @@ include_once("header.php");
     Administrador
   </div>
   <form action="redirect1.php" method="POST">
+  <center>
   <div class="form-group">
     <label for="exampleInputEmail1">Usuario</label>
     <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -35,6 +36,7 @@ include_once("header.php");
     <input style="width: 25rem;" type="password" name="password" class="form-control" id="exampleInputPassword1">
   </div>
   <button type="submit" value="ingresar" class="btn btn-primary">Ingresar</button>
+  </center>
 </form>
 </div>
 </div>
