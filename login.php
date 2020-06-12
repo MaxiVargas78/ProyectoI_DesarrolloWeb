@@ -8,23 +8,14 @@ include_once("header.php");
 <form action="redirect.php" method="POST">
   <div class="form-group">
     <label for="exampleInputEmail1">Nombre de Usuario</label>
-    <input style="width: 25rem;" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
-    <button type="submit"  value="Ingresar" class="btn btn-primary">Ingresar</button>
+    <button type="submit"  value="Ingresar" class="btn btn-primary pull-xs-right">Ingresar</button>
+    </form>
   </div>
   </div>
 </div>
  
-</form>
-<center>
-<form action="redirect.php" method="POST">
-Ingrese Nombre de Usuario:
-<input type="text" name="usuario">
-<input type="submit" value="Ingresar">
-
-</form>
-</center>
-
 <center>
 <form action="redirect1.php" method="POST">
 Ingrese Cuenta Administrador:
