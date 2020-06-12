@@ -14,20 +14,20 @@ include_once("header.php");
     <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <small id="emailHelp" class="form-text text-muted">Nunca compartiremos sus datos con nadie más.</small>
     <button type="submit"  value="Ingresar" class="btn btn-primary pull-xs-right">Ingresar</button>
-</center>
+
     </form>
   </div>
   </div>
 </div>
 
-
-<div class="card bg-dark text-white mb-3" style="width: 36rem;"  >
 <div class="col-sm-6">
+<div class="card bg-dark text-white mb-3" style="width: 36rem;"  >
+
   <div class="card-header">
     Administrador
   </div>
   <form action="redirect1.php" method="POST">
-  <center>
+
   <div class="form-group">
     <label for="exampleInputEmail1">Usuario</label>
     <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
