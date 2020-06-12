@@ -1,6 +1,15 @@
 <?php
 include_once("header.php");
 ?>
+
+<form action="redirect.php" method="POST">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <button type="submit"  value="Ingresar" class="btn btn-primary"></button>
+</form>
 <center>
 <form action="redirect.php" method="POST">
 Ingrese Nombre de Usuario:
