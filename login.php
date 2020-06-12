@@ -17,7 +17,7 @@ include_once("header.php");
   </div>
 </div>
 
-<div class="card bg-dark text-white" style="width: 36rem;"  >
+<div class="card bg-dark text-white mb-3" style="width: 36rem;"  >
   <div class="card-header">
     Administrador
   </div>
