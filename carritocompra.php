@@ -1,4 +1,11 @@
+//crear un usuario administrador que redirija a una vista solo de admin
+//crear una pagina que se llame admin-ordenes
+//utilizar el mongo de vista de productos y usarlos en vista admin-ordenes
+//insertar clave y buscar como validarla en php y mongo
+
+
 <?php
+
 include_once("header.php");
 require 'vendor/autoload.php';
 $uri="mongodb://localhost";
