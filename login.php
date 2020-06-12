@@ -20,8 +20,9 @@ include_once("header.php");
   </div>
 </div>
 
-<div class="col-sm-6">
+
 <div class="card bg-dark text-white mb-3" style="width: 36rem;"  >
+<div class="col-sm-6">
   <div class="card-header">
     Administrador
   </div>
