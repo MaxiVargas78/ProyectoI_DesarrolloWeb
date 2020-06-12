@@ -1,7 +1,7 @@
 <?php
 include_once("header.php");
 ?>
-<div class="card">
+<div class="card bg-dark" style="width: 36rem;"  >
   <div class="card-header">
     Inicia Sesión
   </div>
