@@ -2,6 +2,6 @@
 session_start();
 $_SESSION['usuario'] = $_POST['usuario'];
 $_SESSION['clave'] = $_POST['clave'];
-header("Location: /carritocompra.php");
+header("Location: /carritocompra1.php");
 
 ?>

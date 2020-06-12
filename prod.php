@@ -13,6 +13,7 @@ $nombre = $producto['name'];
 $desc = $producto['desc'];
 $desc1 = $producto['desc1'];
 $img = $producto['img'];
+$precio = $producto['precio'];
 ?> 
 <h5 class="card-header text-white bg-dark mb-3">Productos</h5>
 <div class="card mb-3" style="max-width: 540px;">
@@ -25,6 +26,7 @@ $img = $producto['img'];
         <h5 class="card-title"><?php echo $nombre?></h5>
         <p class="card-text"><?php echo $desc;?></p>
         <h6 class="card-text"><?php echo $desc1;?></h6>
+        <h6 class="card-text"><?php echo $precio;?></h6>
         <p class="card-text"><small class="text-muted"><form action="agregar.php" method="POST">
         <input type="hidden" name="producto" value="<?php echo $prod; ?>"/>
         Cantidad:
