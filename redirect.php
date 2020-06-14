@@ -9,9 +9,9 @@ $_SESSION['password'] = $_POST['password'];
 //header("Location: /");
 
 try{
-    $client->infomaxi->insert($user);
+    $collection= $client->infomaxi->users->insert($user);
     $result = $manager->executeClientWrite($infomaxi, $client);
-    header("Location: /");
+    header("Location: /index.php");
 }
 catch(MongoDB\Client\Exception\Exception $e){
     die("Error encontrado".$e);
