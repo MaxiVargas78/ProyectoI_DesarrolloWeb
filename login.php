@@ -1,11 +1,11 @@
 <?php
 include_once("header.php");
 ?>
-<div class="card">
+<div class="card bg-dark">
 <div class="card-header text-white">
 INICIAR SESIÓN
 </div>
-<div class="col-sm-6">
+<div class="card-deck">
 <div class="card bg-dark text-white" style="width: 36rem;"  >
   <div class="card-header">
     Clientes
@@ -23,7 +23,7 @@ INICIAR SESIÓN
   </div>
 </div>
 
-<div class="col-sm-6">
+<div class="card-deck">
 <div class="card bg-dark text-white mb-3" style="width: 36rem;"  >
 
   <div class="card-header">
