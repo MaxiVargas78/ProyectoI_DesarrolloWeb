@@ -1,7 +1,7 @@
 <?php
 include_once("header.php");
 ?>
-<div class="row">
+<div class="row marginleft">
   <div class="col-sm-6">
 <div class="card bg-dark text-white" style="width: 36rem;"  >
   <div class="card-header">
@@ -9,7 +9,7 @@ include_once("header.php");
   </div>
 <form action="redirect.php" method="POST">
 <center>
-  <div class="form-group">
+  <div class="form-group m-5 pb-5">
     <label for="exampleInputEmail1">Nombre de Usuario</label>
     <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <small id="emailHelp" class="form-text text-muted">Nunca compartiremos sus datos con nadie más.</small>
@@ -23,7 +23,7 @@ include_once("header.php");
 <div class="col-sm-6">
 <div class="card bg-dark text-white mb-3" style="width: 36rem;"  >
 
-  <div class="card-header">
+  <div class="card-header m-5 pb-5">
     Administrador
   </div>
   <form action="redirect1.php" method="POST">
