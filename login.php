@@ -7,13 +7,10 @@ INICIAR SESIÓN
 </div>
 <div class="card-deck">
 <div class="card bg-dark text-white" style="width: 36rem;"  >
-  <div class="card-header">
-    LOGIN
-  </div>
 <form action="redirect.php" method="POST">
 <center>
   <div class="form-group m-5 pb-5">
-    <label for="exampleInputEmail1">Nombre de Usuario</label>
+    <label for="exampleInputEmail1">Nombre de usuario</label>
     <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div class="form-group">
     <label  for="exampleInputPassword1">Contraseña</label>
@@ -40,11 +37,11 @@ INICIAR SESIÓN
     <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   <div class="form-group">
-    <label  for="exampleInputPassword1">Contraseña</label>
+    <label  for="exampleInputPassword1"> Crea una contraseña</label>
     <input style="width: 25rem;" type="password" name="password" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="form-group">
-    <label  for="exampleInputPassword1"> Confirmar Contraseña</label>
+    <label  for="exampleInputPassword1"> Confirmar contraseña</label>
     <input style="width: 25rem;" type="password" name="password" class="form-control" id="exampleInputPassword1">
   </div>
   <button type="submit" value="ingresar" class="btn btn-primary">Ingresar</button>
