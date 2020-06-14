@@ -2,7 +2,7 @@
 include_once("header.php");
 ?>
 <div class="row">
-  <div class="col-sm-6 mx-1">
+  <div class="col-sm-6 mx-0">
 <div class="card bg-dark text-white" style="width: 36rem;"  >
   <div class="card-header">
     Clientes
