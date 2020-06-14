@@ -4,7 +4,7 @@ if($_POST['cantidad']<0){
     die();
 }
 
-if(isset($_SESSION['carrito'])){
+if(!isset($_SESSION['carrito'])){
 $_SESSION['carrito'] = Array();
 }
 if(isset($_SESSION['carrito'][$_POST['producto']])){
