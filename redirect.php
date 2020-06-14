@@ -4,17 +4,10 @@ $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 
 session_start();
-//$_SESSION['usuario'] = $_POST['usuario'];
+$_SESSION['usuario'] = $_POST['usuario'];
+$_SESSION['password'] = $_POST['password'];
 //header("Location: /");
 
-$usuario = $_POST["usuario"];
-$password = $_POST["password"];
-
-$user = [
-    '_id' => new MongoDB\BSON\ObjectId,
-    'usuario' => $usuario,
-    'password' => $password
-];
 try{
     $client->infomaxi->insert($user);
     $result = $manager->executeClientWrite($infomaxi, $client);
