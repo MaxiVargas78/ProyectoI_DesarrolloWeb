@@ -1,5 +1,6 @@
 <?php
 include_once("header.php");
+session_start();
 
 require 'vendor/autoload.php';
 $uri="mongodb://localhost";
@@ -12,7 +13,7 @@ INICIAR SESIÓN
 </div>
 <div class="card-deck">
 <div class="card bg-dark text-white" style="width: 36rem;"  >
-<form action="redirect.php" method="POST">
+<form action="redirect1.php" method="POST">
 <center>
   <div class="form-group m-5 pb-5">
     <label for="exampleInputEmail1">Nombre de usuario</label>
