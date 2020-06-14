@@ -1,5 +1,10 @@
 <?php
 include_once("header.php");
+
+require 'vendor/autoload.php';
+$uri="mongodb://localhost";
+$client=new MongoDB\Client($uri);
+
 ?>
 <div class="card bg-dark">
 <div class="card-header text-white">
@@ -34,15 +39,15 @@ INICIAR SESIÓN
 <center>
   <div class="form-group">
     <label for="exampleInputEmail1">Usuario</label>
-    <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="username" aria-describedby="emailHelp">
   </div>
   <div class="form-group">
     <label  for="exampleInputPassword1"> Crea una contraseña</label>
-    <input style="width: 25rem;" type="password" name="password" class="form-control" id="exampleInputPassword1">
+    <input style="width: 25rem;" type="password" name="password" class="form-control" id="password">
   </div>
   <div class="form-group">
     <label  for="exampleInputPassword1"> Confirmar contraseña</label>
-    <input style="width: 25rem;" type="password" name="password" class="form-control" id="exampleInputPassword1">
+    <input style="width: 25rem;" type="password" name="password" class="form-control" id="confirm">
   </div>
   <button type="submit" value="ingresar" class="btn btn-primary">Ingresar</button>
   </center>
