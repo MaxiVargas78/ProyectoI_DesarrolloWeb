@@ -35,7 +35,7 @@ INICIAR SESIÓN
   <div class="card-header">
     REGISTRARSE
   </div>
-  <form action="redirect1.php" method="POST">
+  <form action="redirect.php" method="POST">
 <center>
   <div class="form-group">
     <label for="exampleInputEmail1">Usuario</label>
