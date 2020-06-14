@@ -1,7 +1,8 @@
 <?php
 include_once("header.php");
 ?>
-<div class="row">
+<div class="card">
+<div class="card-header text-white">
   <div class="col-sm-6 mx-0">
 <div class="card bg-dark text-white" style="width: 36rem;"  >
   <div class="card-header">
