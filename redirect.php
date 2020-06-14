@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 
-//session_start();
+session_start();
 //$_SESSION['usuario'] = $_POST['usuario'];
 //header("Location: /");
 
