@@ -5,7 +5,7 @@ include_once("header.php");
   <div class="col-sm-6">
 <div class="card bg-dark text-white" style="width: 36rem;"  >
   <div class="card-header">
-    Inicia Sesión
+    Clientes
   </div>
 <form action="redirect.php" method="POST">
 <center>
