@@ -3,9 +3,9 @@ require 'vendor/autoload.php';
 $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 
-session_start();
-$_SESSION['usuario'] = $_POST['usuario'];
-header("Location: /");
+//session_start();
+//$_SESSION['usuario'] = $_POST['usuario'];
+//header("Location: /");
 
 $usuario = $_POST["usuario"];
 $password = $_POST["password"];
