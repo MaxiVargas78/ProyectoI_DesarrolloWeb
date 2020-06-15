@@ -11,7 +11,7 @@ print_r($_SESSION['usuario']);
 //header("Location: /");
 $usuarios = $client->infomaxi->usuarios;
 $usuarios->insertOne(array('usuario' => $usuario, 'password'=> $password));
-print_r($usuarios)
+print_r($usuarios);
 
 try{    
     $usuarios= $client->infomaxi->usuarios->insert($user);
