@@ -40,15 +40,15 @@ INICIAR SESIÓN
 <center>
   <div class="form-group">
     <label for="exampleInputEmail1">Usuario</label>
-    <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="username" aria-describedby="emailHelp">
+    <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="usuario" aria-describedby="emailHelp">
   </div>
   <div class="form-group">
     <label  for="exampleInputPassword1"> Crea una contraseña</label>
-    <input style="width: 25rem;" type="password" name="password" class="form-control" id="password">
+    <input style="width: 25rem;" type="password" name="password"  class="form-control" id="password">
   </div>
   <div class="form-group">
     <label  for="exampleInputPassword1"> Confirmar contraseña</label>
-    <input style="width: 25rem;" type="password" name="password" class="form-control" id="confirm">
+    <input style="width: 25rem;" type="password" name="confirmpassword" class="form-control" id="confirm">
   </div>
   <button type="submit" value="ingresar" class="btn btn-primary">Ingresar</button>
   </center>

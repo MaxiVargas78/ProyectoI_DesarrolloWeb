@@ -6,6 +6,8 @@ $client=new MongoDB\Client($uri);
 session_start();
 $_SESSION['usuario'] = $_POST['usuario'];
 $_SESSION['password'] = $_POST['password'];
+print_r($_SESSION['usuario']);
+
 //header("Location: /");
 $usuarios = $client->infomaxi->usuarios;
 $usuarios->insertOne(array('usuario' => $usuario, 'password'=> $password));
