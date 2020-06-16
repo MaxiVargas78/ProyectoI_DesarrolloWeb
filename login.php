@@ -48,7 +48,7 @@ INICIAR SESIÓN
   </div>
   <div class="form-group">
     <label  for="exampleInputPassword1"> Confirmar contraseña</label>
-    <input style="width: 25rem;" type="password" name="confirmpassword" class="form-control" id="confirm">
+    <input style="width: 25rem;" type="password" name="confirm" class="form-control" id="confirm">
   </div>
   <button type="submit" value="ingresar" class="btn btn-primary">Ingresar</button>
   </center>
