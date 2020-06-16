@@ -1,7 +1,7 @@
 <?php
 include_once("header.php");
 include_once("datos.php");
-$prod = $_GET['key'];
+$orden = $_GET['key'];
 
 require 'vendor/autoload.php';
 $uri="mongodb://localhost";
@@ -9,8 +9,8 @@ $client=new MongoDB\Client($uri);
 ?>
 
 <?php
-$ordenes= $client->infomaxi->ordenes->findOne(['_id' => new MongoDB\BSON\ObjectID($prod)]);
-foreach($ordenes as $orden){
+$ordenes= $client->infomaxi->$ordenes->findOne(['_id' => new MongoDB\BSON\ObjectID($orden)]);
+foreach($ordenes as $ordencita){
     echo "<tr>";
 ?>
 
