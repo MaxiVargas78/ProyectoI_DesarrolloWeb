@@ -4,24 +4,32 @@ require 'vendor/autoload.php';
 $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 
-session_start();
-$_SESSION['usuario'] = $_POST['usuario'];
-$_SESSION['password'] = $_POST['password'];
+ if(isset($_POST['submit']))
+ {
+   $usuario= ($_POST['usuario']);
+    $password = ($_POST['password']);
+    if(empty($usuario))
+    {
+     echo "Empty or invalid email address";
+    }
+     if(empty($password)){
+     echo "Enter your password"; 
+      }
+    
+    
+      // Select Collection
+    $collection = $client->infomaxi->usuarios;
+    $result = $collection->findOne(array('usuario' => $usuario,'password' =>md5($password)));
+    if($result){
+     echo "You are successully loggedIn";
+       }
+    else
+     { echo "unsuccessful";
+     }
 
-$filter = [
-    'usuario' => $usuario,
-    'password' => $password
-];
-$query = new MongoDB\Driver\Query($filter);
+      } else { 
+      die("Mongo DB not connected");
+      } 
 
-try{
-    $result = $manager->executeQuery($dbname, $query);
-    $row = $result->toArray();
-    $user = $row[0]->$usuario;
-    $_SESSION['usuario'] = $user;
-    header("Location: /carritocompra1.php");
-}catch(MongoDB\Driver\Exception\Exception $e){
-    die("Error encontrado");
-}
 
-?>
+      ?>
