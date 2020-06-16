@@ -26,6 +26,7 @@ if(isset($_GET['remover'])){
 <th>Precio</th>
 <th>Total</th>
 </tr>
+
 <?php
 $total=0;
 foreach($_SESSION['carrito'] as $prod => $cantidad){
