@@ -8,10 +8,14 @@ $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 
 $ordenes= $client->infomaxi->ordenes->find();
+foreach($entry['productos'] as $id_producto => $cantidad_producto){
+    echo "$id_producto : $cantidad_producto";
+
 
 $usuario = $ordenes['usuario'];
 $productos = $ordenes['productos'];
 $total = $ordenes['total'];
+}
 ?> 
 <h5 class="card-header text-white bg-dark mb-3">Órdenes</h5>
 <div class="card mb-3" style="max-width: 540px;">
