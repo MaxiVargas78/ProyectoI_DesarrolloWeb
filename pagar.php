@@ -12,7 +12,7 @@ $client=new MongoDB\Client($uri);
 $ordenes = $client->infomaxi->ordenes;
 $ordenes->insertOne(array('total' => $total, 'productos'=> $_SESSION['carrito'], 'usuario' => $_SESSION['usuario']));
 unset($_SESSION['carrito']);
-echo"<div>";
+echo"<h1>";
 ?>
 <div class="card">
   <div class="card-body">
@@ -21,7 +21,7 @@ echo"<div>";
 </div>
 
 <?php
-echo"</div>";
+echo"</h1>";
 ?>
 
 <?php
