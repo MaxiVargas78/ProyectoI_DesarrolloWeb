@@ -20,7 +20,7 @@ INICIAR SESIÓN
     <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="usuario" aria-describedby="emailHelp">
     <div class="form-group">
     <label  for="exampleInputPassword1">Contraseña</label>
-    <input style="width: 25rem;" type="password" name="password" class="form-control" id="password">
+    <input style="width: 25rem;" type="password" name="password" class="form-control" id="password1">
   </div>
     <small id="emailHelp" class="form-text text-muted">Nunca compartiremos sus datos con nadie.</small>
     <button type="submit"  value="Ingresar" class="btn btn-primary pull-xs-right">Ingresar</button>
@@ -48,7 +48,7 @@ INICIAR SESIÓN
   </div>
   <div class="form-group">
     <label  for="exampleInputPassword1"> Confirmar contraseña</label>
-    <input style="width: 25rem;" type="password" name="confirm" class="form-control" id="confirm">
+    <input style="width: 25rem;" type="password" name="confirmpassword" class="form-control" id="confirm">
   </div>
   <button type="submit" value="ingresar" class="btn btn-primary">Ingresar</button>
   </center>
