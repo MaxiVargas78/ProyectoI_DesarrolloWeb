@@ -7,7 +7,7 @@ require 'vendor/autoload.php';
 $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 
-$ordenes= $client->infomaxi->ordenes->findOne(['_id' => new MongoDB\BSON\ObjectID($orden)]);
+$ordenes= $client->infomaxi->ordenes->find();
 
 $usuario = $ordenes['usuario'];
 $productos = $ordenes['productos'];
