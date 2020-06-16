@@ -19,7 +19,7 @@ $client=new MongoDB\Client($uri);
     
       // Select Collection
     $collection = $client->infomaxi->usuarios;
-    $result = $collection->findOne(array('usuario' => $usuario,'password' =>md5($password)));
+    $result = $collection->findOne(array('usuario' => $_SESSION['usuario'],'password' =>md5($password)));
     if($result){
      echo "You are successully loggedIn";
        }
