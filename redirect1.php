@@ -6,13 +6,13 @@ $client=new MongoDB\Client($uri);
 
  if(isset($_POST['submit']))
  {
-   $usuario= ($_POST['usuario']);
-    $password = ($_POST['password']);
-    if(empty($usuario))
+   $_SESSION['usuario'] = ($_POST['usuario']);
+    $_SESSION['password'] = ($_POST['password']);
+    if(empty($_SESSION['usuario']))
     {
      echo "Empty or invalid email address";
     }
-     if(empty($password)){
+     if(empty($_SESSION['password'])){
      echo "Enter your password"; 
       }
     
@@ -21,15 +21,16 @@ $client=new MongoDB\Client($uri);
     $result = $client->infomaxi->usuarios->findOne(array('usuario' => $_SESSION['usuario'],'password' =>md5($password)));
    
     if($result){
-     echo "You are successully loggedIn";
+     echo "Logueado correctamente";
        }
     else
-     { echo "unsuccessful";
+     { echo "Fallo en la conexion";
      }
 
       } else { 
-      die("Mongo DB not connected");
+      die("Mongo DB no conectado");
       } 
+    
 
 
       ?>
