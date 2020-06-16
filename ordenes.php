@@ -8,8 +8,9 @@ $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 
 $ordenes= $client->infomaxi->ordenes->find();
-foreach($entry['productos'] as $id_producto => $cantidad_producto){
-    echo "$id_producto : $cantidad_producto";
+foreach($ordenes['productos'] as $producto => $productito){
+    echo "$producto : $productito";
+    print_r($ordenes);
 
 
 $usuario = $ordenes['usuario'];
