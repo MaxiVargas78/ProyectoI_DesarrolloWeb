@@ -12,6 +12,7 @@ $client=new MongoDB\Client($uri);
 $ordenes = $client->infomaxi->ordenes;
 $ordenes->insertOne(array('total' => $total, 'productos'=> $_SESSION['carrito'], 'usuario' => $_SESSION['usuario']));
 unset($_SESSION['carrito']);
+echo"<h";
 ?>
 <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-autohide="false">
   <div class="toast-header">
@@ -25,6 +26,10 @@ unset($_SESSION['carrito']);
   Muchas gracias por su compra, nos contactaremos en breve con usted para la entrega!
   </div>
 </div>";
+
+<?php
+echo"</div>";
+?>
 
 <?php
 include_once("footer.php");
