@@ -9,7 +9,7 @@ $client=new MongoDB\Client($uri);
 ?>
 
 <?php
-$ordenes= $client->infomaxi->$ordenes->findOne(['_id' => new MongoDB\BSON\ObjectID($orden)]);
+$ordenes= $client->infomaxi->ordenes->findOne(['_id' => new MongoDB\BSON\ObjectID($orden)]);
 foreach($ordenes as $ordencita){
     echo "<tr>";
 ?>
@@ -24,5 +24,5 @@ foreach($ordenes as $ordencita){
 ?>
 
 <?php
-//include_once("footer.php");
+include_once("footer.php");
 ?>
