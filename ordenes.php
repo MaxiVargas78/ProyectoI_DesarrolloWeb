@@ -9,9 +9,12 @@ $client=new MongoDB\Client($uri);
 ?>
 
 <?php
-$ordenes= $client->infomaxi->ordenes->find();
+    
+
 foreach($ordenes as $order ){
-    echo "<tr>";
+echo "<tr>";
+$ordenes= $client->infomaxi->ordenes->find();
+
 ?>
 
     <td><?php echo $order['usuario'];?></td>
