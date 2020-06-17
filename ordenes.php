@@ -18,8 +18,11 @@ $ordenes= $client->infomaxi->ordenes->find();
 ?>
 
     <td><?php echo $order['usuario'];?></td>
+    <?php print_r($order['usuario']); ?>
     <td><?php echo $order['productos'];?></td>
+    <?php print_r($order['productos']); ?>
     <td>$<?php echo $order['total'];?></td>
+    <?php print_r($order['total']); ?>
 
 <?php
     echo"</tr>";
