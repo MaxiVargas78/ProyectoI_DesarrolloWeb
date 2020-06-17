@@ -18,15 +18,16 @@ print_r($_SESSION['usuario1']);
     }
     
      // Select Collection
-    $result = $client->infomaxi->usuarios->findOne(array('usuario'=>$_SESSION['usuario']),array('password'));
+    $result = $client->infomaxi->usuarios->findOne(array('usuario'=>$_SESSION['usuario']));
     print_r($result);
-    if($result[password] === $_SESSION['password']){
+    if($result[password] === $_SESSION['password1']){
      echo "Logueado correctamente";
+     $_SESSION['usuario1'] = $result[usuario];
      header("Location: ../index.php");
        }
     else
-     { echo "Usuario o contraseña incorrecto";
-        print_r("Usuario o contraseña incorrecto");
+     { $_SESSION['usuario1'] = NULL;
+      print_r("Usuario o contraseña incorrecto");
         
      }    
       ?>
