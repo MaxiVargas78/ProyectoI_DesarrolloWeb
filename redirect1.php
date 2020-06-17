@@ -18,8 +18,9 @@ print_r($_SESSION['usuario1']);
     }
     
      // Select Collection
-    $result = $client->infomaxi->usuarios->findOne(array($_SESSION['usuario']));
-    if($result.password === $_SESSION['password']){
+    $result = $client->infomaxi->usuarios->findOne(array('usuario'=>$_SESSION['usuario']),array('password'));
+    print_r($result);
+    if($result[password] === $_SESSION['password']){
      echo "Logueado correctamente";
      header("Location: ../index.php");
        }
