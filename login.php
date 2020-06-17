@@ -17,10 +17,10 @@ INICIAR SESIÓN
 <center>
   <div class="form-group m-5 pb-5">
     <label for="exampleInputEmail1">Nombre de usuario</label>
-    <input style="width: 25rem;" type="text" name="usuario" class="form-control" id="usuario" aria-describedby="emailHelp">
+    <input style="width: 25rem;" type="text" name="usuario1" class="form-control" id="usuario1" aria-describedby="emailHelp">
     <div class="form-group">
     <label  for="exampleInputPassword1">Contraseña</label>
-    <input style="width: 25rem;" type="password" name="password" class="form-control" id="password1">
+    <input style="width: 25rem;" type="password" name="password1" class="form-control" id="password1">
   </div>
     <small id="emailHelp" class="form-text text-muted">Nunca compartiremos sus datos con nadie.</small>
     <button type="submit"  value="Ingresar" class="btn btn-primary pull-xs-right">Ingresar</button>

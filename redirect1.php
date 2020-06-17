@@ -4,33 +4,25 @@ require 'vendor/autoload.php';
 $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
 
- if(isset($_POST['submit']))
- {
-   $_SESSION['usuario'] = ($_POST['usuario']);
-    $_SESSION['password'] = ($_POST['password']);
-    if(empty($_SESSION['usuario']))
+session_start();
+$_SESSION['usuario1'] = $_POST['usuario1'];
+$_SESSION['password1'] = $_POST['password1'];
+
+    if(empty($_SESSION['usuario1']))
     {
      echo "Empty or invalid email address";
     }
-     if(empty($_SESSION['password'])){
+     if(empty($_SESSION['password1'])){
      echo "Enter your password"; 
-      }
+    }
     
-    
-      // Select Collection
-    $result = $client->infomaxi->usuarios->findOne(array('usuario','password'));
-   
-    if($result){
+     // Select Collection
+    $result = $client->infomaxi->usuarios->findOne(array($_SESSION['usuario']));
+    if($result.password === $_SESSION['password']){
      echo "Logueado correctamente";
+     header("Location: ../index.php");
        }
     else
-     { echo "Fallo en la conexion";
-     }
-
-      } else { 
-      die("Mongo DB no conectado");
-      } 
-    
-
-
+     { echo "Usuario o contraseña incorrecto";
+     }    
       ?>
