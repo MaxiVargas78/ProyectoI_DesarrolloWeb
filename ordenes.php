@@ -9,14 +9,14 @@ $client=new MongoDB\Client($uri);
 ?>
 
 <?php
-$ordenes= $client->infomaxi->ordenes->findOne(['_id' => new MongoDB\BSON\ObjectID($orden)]);
-foreach($ordenes as $ordencita){
+$ordenes= $client->infomaxi->ordenes->find();
+foreach($ordenes as $order ){
     echo "<tr>";
 ?>
 
-    <td><?php echo $orden['usuario'];?></td>
-    <td><?php echo $productos['productos'];?></td>
-    <td>$<?php echo $total['total'];?></td>
+    <td><?php echo $order['usuario'];?></td>
+    <td><?php echo $order['productos'];?></td>
+    <td>$<?php echo $order['total'];?></td>
 
 <?php
     echo"</tr>";
