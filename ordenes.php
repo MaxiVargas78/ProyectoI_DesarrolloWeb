@@ -10,19 +10,17 @@ $client=new MongoDB\Client($uri);
 
 <?php
     
-
+$ordenes= $client->infomaxi->ordenes->find(); // la consulta la realiza pero no logro hacer que se visualice
 foreach($ordenes as $order ){
 echo "<tr>";
-$ordenes= $client->infomaxi->ordenes->find();
+
 
 ?>
 
     <td><?php echo $order['usuario'];?></td>
-    <?php print_r($order['usuario']); ?>
     <td><?php echo $order['productos'];?></td>
-    <?php print_r($order['productos']); ?>
     <td>$<?php echo $order['total'];?></td>
-    <?php print_r($order['total']); ?>
+  
 
 <?php
     echo"</tr>";
