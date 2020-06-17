@@ -24,5 +24,7 @@ $_SESSION['password1'] = $_POST['password1'];
        }
     else
      { echo "Usuario o contraseña incorrecto";
+        print_r("Usuario o contraseña incorrecto");
+        
      }    
       ?>
