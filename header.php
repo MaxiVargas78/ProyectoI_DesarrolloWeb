@@ -37,7 +37,12 @@
       if(isset($_SESSION['usuario'])){
         echo "<a>".$_SESSION['usuario']."<a>";
       }  
-        else{}
+        elseif
+          (isset($_SESSION['usuario1'])){
+            echo "<a>".$_SESSION['usuario1']."<a>";
+          
+
+        }
         ?>
         <a class="navbar-brand" href="/carritocompra.php">
         <img src="https://cdn3.iconfinder.com/data/icons/e-commerce-2-2/380/2-512.png"  width="40" height="40" class="d-inline-block align-top" alt="">
