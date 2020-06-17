@@ -7,6 +7,7 @@ $client=new MongoDB\Client($uri);
 session_start();
 $_SESSION['usuario1'] = $_POST['usuario1'];
 $_SESSION['password1'] = $_POST['password1'];
+print_r($_SESSION['usuario1']);
 
     if(empty($_SESSION['usuario1']))
     {
