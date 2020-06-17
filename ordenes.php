@@ -1,7 +1,7 @@
 <?php
 include_once("header.php");
 include_once("datos.php");
-$orden = $_GET['key'];
+
 
 require 'vendor/autoload.php';
 $uri="mongodb://localhost";
