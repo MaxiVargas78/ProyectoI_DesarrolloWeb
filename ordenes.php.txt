@@ -1,7 +1,7 @@
 <?php
 include_once("header.php");
 include_once("datos.php");
-$orden = $_GET['key'];
+
 
 require 'vendor/autoload.php';
 $uri="mongodb://localhost";
@@ -9,14 +9,18 @@ $client=new MongoDB\Client($uri);
 ?>
 
 <?php
-$ordenes= $client->infomaxi->$ordenes->findOne(['_id' => new MongoDB\BSON\ObjectID($orden)]);
-foreach($ordenes as $ordencita){
-    echo "<tr>";
+    
+$ordenes= $client->infomaxi->ordenes->find(); // la consulta la realiza pero no logro hacer que se visualice
+foreach($ordenes as $order ){
+echo "<tr>";
+
+
 ?>
 
-    <td><?php echo $orden['usuario'];?></td>
-    <td><?php echo $productos['productos'];?></td>
-    <td>$<?php echo $total['total'];?></td>
+    <td><?php echo $order['usuario'];?></td>
+    <td><?php echo $order['productos'];?></td>
+    <td>$<?php echo $order['total'];?></td>
+  
 
 <?php
     echo"</tr>";
@@ -24,5 +28,5 @@ foreach($ordenes as $ordencita){
 ?>
 
 <?php
-//include_once("footer.php");
+include_once("footer.php");
 ?>
