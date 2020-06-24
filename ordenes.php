@@ -20,9 +20,10 @@ foreach($orden2 as $order ){
 
     <div class="card" style="width: 18rem;">
   <ul class="list-group list-group-flush">
-    <li class="list-group-item"><?php echo $order['usuario'];?>/li>
-    <li class="list-group-item"><?php echo  json_encode($order['productos']);?></li>
-    <li class="list-group-item">$<?php echo $order['total'];?></li>
+  <div class="card-header">Pedido</div>
+    <li class="list-group-item">Cliente: <?php echo $order['usuario'];?></li>
+    <li class="list-group-item">Código Producto:<?php echo  json_encode($order['productos']);?></li>
+    <li class="list-group-item">Precio Total $<?php echo $order['total'];?></li>
   </ul>
 </div>
 
