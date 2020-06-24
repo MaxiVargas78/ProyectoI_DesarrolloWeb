@@ -19,9 +19,9 @@ foreach($orden2 as $order ){
 
 ?>
 
-    <td><?php echo $order['usuario'];?></td>
-    <td><?php echo $order['productos'];?></td>
-    <td>$<?php echo $order['total'];?></td>
+    <td><?php echo $order2['usuario'];?></td>
+    <td><?php echo $order2['productos'];?></td>
+    <td>$<?php echo $order2['total'];?></td>
   
 
 <?php
