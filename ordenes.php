@@ -10,8 +10,9 @@ $client=new MongoDB\Client($uri);
 
 <?php
 
-$ordenes= $client->infomaxi->ordenes->find(); // la consulta la realiza pero no logro hacer que se visualice
-foreach($ordenes->toArray() as $order ){
+$ordenes= $client->infomaxi->ordenes->find();
+$orden2= $ordenes->toArray(); // la consulta la realiza pero no logro hacer que se visualice
+foreach($orden2 as $order ){
     echo($order);
 
 
