@@ -15,7 +15,13 @@ $orden2= $ordenes->toArray(); // la consulta la realiza pero no logro hacer que 
 foreach($orden2 as $order ){
     echo json_encode($order);
     echo "<tr>";
+
+
 ?>
+
+    <td><?php echo $order['usuario'];?></td>
+    <td>$<?php echo $order['total'];?></td>
+  
 
 <?php
     echo"</tr>";
