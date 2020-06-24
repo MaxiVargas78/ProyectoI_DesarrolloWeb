@@ -13,18 +13,20 @@ $client=new MongoDB\Client($uri);
 $ordenes= $client->infomaxi->ordenes->find();
 $orden2= $ordenes->toArray(); 
 foreach($orden2 as $order ){
-    echo "<tr>";
+    echo "<div class="card" style="width: 18rem;">";
 
 
 ?>
 
-    <td><?php echo $order['usuario'];?></td>
-    <td><?php echo  json_encode($order['productos']);?></td>
-    <td>$<?php echo $order['total'];?></td>
-  
+
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><?php echo $order['usuario'];?>/li>
+    <li class="list-group-item"><?php echo  json_encode($order['productos']);?></li>
+    <li class="list-group-item">$<?php echo $order['total'];?></li>
+  </ul>
 
 <?php
-    echo"</tr>";
+    echo"</div>";
 
 
 }
