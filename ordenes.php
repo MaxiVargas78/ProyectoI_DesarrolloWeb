@@ -15,7 +15,6 @@ $orden2= $ordenes->toArray();
 foreach($orden2 as $order ){
     echo "<div>";
 
-
 ?>
 
     <div class="card bg-dark" style="width: 18rem;">
