@@ -14,18 +14,7 @@ $ordenes= $client->infomaxi->ordenes->find(); // la consulta la realiza pero no 
 foreach($ordenes->toArray() as $order ){
     echo($order);
 
-echo "<tr>";
 
-
-?>
-
-    <td><?php echo $order['usuario'];?></td>
-    <td><?php echo $order['productos'];?></td>
-    <td>$<?php echo $order['total'];?></td>
-  
-
-<?php
-    echo"</tr>";
 }
 ?>
 
