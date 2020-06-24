@@ -10,8 +10,8 @@ $client=new MongoDB\Client($uri);
 
 <?php
 
-$ordenes= $client->infomaxi->ordenes->find(); // la consulta la realiza pero no logro hacer que se visualice
-echo json_encode($ordenes);
+$ordenes= $client->infomaxi->categorias->find(); // la consulta la realiza pero no logro hacer que se visualice
+echo json_encode($ordenes->toArray());
 foreach($ordenes as $order ){
 
 echo "<tr>";
