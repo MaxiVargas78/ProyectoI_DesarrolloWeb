@@ -12,6 +12,7 @@ $client=new MongoDB\Client($uri);
 
 $ordenes= $client->infomaxi->ordenes->find(); // la consulta la realiza pero no logro hacer que se visualice
 foreach($ordenes->toArray() as $order ){
+    echo($order);
 
 echo "<tr>";
 
