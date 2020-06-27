@@ -10,6 +10,7 @@ foreach ($collection as $entry) {
     $prods[ $entry['_id']->__toString() ] = $entry['name'];
 
 }
+echo json_encode($prods);
 
 
 

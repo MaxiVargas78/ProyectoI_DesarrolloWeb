@@ -9,4 +9,5 @@ foreach ($collection as $entry) {
     $categorias[$entry['_id']->__toString() ] = $entry['name'];
     echo $categorias[ $entry['_id']];
 }
+echo json_encode($categorias );
 ?>
