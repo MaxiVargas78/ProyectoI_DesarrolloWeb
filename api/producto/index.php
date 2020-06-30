@@ -7,11 +7,13 @@ $client=new MongoDB\Client($uri);
 
 $producto= $client->infomaxi->productos->findOne(['_id' => new MongoDB\BSON\ObjectID($prod)]);
 
-//$nombre = $producto['name'];
-//$desc = $producto['desc'];
-//$desc1 = $producto['desc1'];
-//$img = $producto['img'];
-//$precio = $producto['precio'];
+$nombre = $producto['name'];
+$desc = $producto['desc'];
+$desc1 = $producto['desc1'];
+$img = $producto['img'];
+$precio = $producto['precio'];
 
-echo json_encode($producto);
+$arr=["nombre" => $nombre, "id" => $prod, "desc" => $desc, "img" => $img, "valor" => $precio];
+
+echo json_encode($arr);
 ?> 
