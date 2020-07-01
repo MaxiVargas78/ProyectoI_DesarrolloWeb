@@ -6,7 +6,7 @@ $client=new MongoDB\Client($uri);
 
 $ordenes= $client->infomaxi->ordenes->findOne(['_id' => new MongoDB\BSON\ObjectId($id)]);
 $orden2= array();
-$productos= $ordenes['compra'];
+$productos= $ordenes['productos'];
 $total = $ordenes['total'];
 
 $orden2 = ['Productos' => $detalle, 'Total' => $total];
