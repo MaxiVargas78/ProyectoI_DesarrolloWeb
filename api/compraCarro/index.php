@@ -1,14 +1,17 @@
 <?php
-session_start(); 
-$total= $_POST['total'];
-echo $total;
+session_start();
 
-require 'vendor/autoload.php';
+$total = $_GET['total'];
+
+require '../../vendor/autoload.php';
 $uri="mongodb://localhost";
 $client=new MongoDB\Client($uri);
+$collection = $client->infomaxi->ordenes;
+$insert = $collection->insertOne(['compra' => $_SESSION['carrito'], 'total' => $total]);
 
-$ordenes = $client->infomaxi->ordenes;
-$ordenes->insertOne(array('total' => $total, 'productos'=> $_SESSION['carrito'], 'usuario' => $_SESSION['usuario']));
-unset($_SESSION['carrito']);
-echo json_encode(true);
+
+$arr = ['ordenes' => $_SESSION['carrito'], 'total' => $total];
+
+
+echo json_encode($arr);
 ?>
