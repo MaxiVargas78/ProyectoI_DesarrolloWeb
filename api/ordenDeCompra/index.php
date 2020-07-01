@@ -7,7 +7,7 @@ $client=new MongoDB\Client($uri);
 $collect= $client->infomaxi->ordenes->find();
 $orden2 = array();
 foreach ($collect as $entry) {
-        $orden2[$entry['_id']->__toString()] = $entry['name'];
+        $orden2[$entry['_id']->__toString()] = $entry['usuario'];
 }
 echo json_encode($orden2);
 
