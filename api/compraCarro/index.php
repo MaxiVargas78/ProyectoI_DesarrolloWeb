@@ -7,7 +7,7 @@ $client=new MongoDB\Client($uri);
 
 
 $collection = $client->infomaxi->ordenes;
-$insert = $collection->insertOne(['ordenes' => $_SESSION['carrito'], 'total' => $total]);
+$insert = $collection->insertOne(array(['ordenes' => $_SESSION['carrito'], 'total' => $total]));
 $arr = ['ordenes' => $_SESSION['carrito'], 'total' => $total];
 
 echo json_encode($arr);
