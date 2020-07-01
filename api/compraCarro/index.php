@@ -10,4 +10,5 @@ $client=new MongoDB\Client($uri);
 $ordenes = $client->infomaxi->ordenes;
 $ordenes->insertOne(array('total' => $total, 'productos'=> $_SESSION['carrito'], 'usuario' => $_SESSION['usuario']));
 unset($_SESSION['carrito']);
+echo json_encode(true);
 ?>
