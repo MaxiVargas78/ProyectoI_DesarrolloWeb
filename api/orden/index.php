@@ -9,7 +9,7 @@ $orden2= array();
 $productos= $ordenes['productos'];
 $total = $ordenes['total'];
 
-$orden2 = ['Productos' => $detalle, 'Total' => $total];
+$orden2 = ['Productos' => $productos, 'Total' => $total];
 
 echo json_encode($orden2);
 
