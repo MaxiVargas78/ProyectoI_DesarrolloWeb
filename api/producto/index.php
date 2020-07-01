@@ -13,7 +13,7 @@ $desc1 = $producto['desc1'];
 $img = $producto['img'];
 $precio = $producto['precio'];
 
-$arr=["nombre" => $nombre, "id" => $prod, "desc" => $desc, "img" => $img, "valor" => $precio];
+$arr=["nombre" => $nombre, "id" => $prod, "desc" => $desc, "desc1" => $desc1, "img" => $img, "valor" => $precio];
 
 echo json_encode($arr);
 ?> 
