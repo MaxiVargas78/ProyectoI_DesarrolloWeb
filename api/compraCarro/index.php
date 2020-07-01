@@ -1,5 +1,4 @@
 <?php
-include_once("header.php");
 session_start(); 
 $total= $_POST['total'];
 echo $total;
